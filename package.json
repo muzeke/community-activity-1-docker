@@ -29,7 +29,8 @@
     "start": "node dist/index.js",
     "start:pm2": "pm2 start dist/index.js --name app1-express",
     "stop:pm2": "pm2 stop app1-express",
-    "delete:pm2": "pm2 delete app1-express"
+    "delete:pm2": "pm2 delete app1-express",
+    "logs:pm2": "pm2 logs app1-express"
   },
   "keywords": [],
   "author": "",
